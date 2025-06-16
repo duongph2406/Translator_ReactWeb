@@ -235,7 +235,7 @@ function App() {
     }
 
     // If all APIs fail, show error
-    setError('Không thể kết nối đến dịch vụ dịch thuật. Vui lòng kiểm tra kết nối mạng và thử lại sau.');
+    setError('Không thể kết nối đến dịch vụ dịch văn bản. Vui lòng kiểm tra kết nối mạng và thử lại sau.');
     setLoading(false);
   };
 
@@ -403,7 +403,7 @@ function App() {
   return (
     <div className="App">
       <header className="app-header">
-        <h1>🌐 Trang Web Dịch Thuật</h1>
+        <h1>🌐 Trang Web Dịch Văn Bản</h1>
         <p>Trang web dịch văn bản miễn phí hỗ trợ hơn 100 ngôn ngữ</p>
       </header>
 
@@ -581,7 +581,7 @@ function App() {
       </main>
 
       <footer className="app-footer">
-        <p>© 2025 Trang web Dịch Thuật - Sử dụng API Translation</p>
+        <p>© 2025 Trang Web Dịch Văn Bản - Sử dụng API Translation</p>
         <p>Phát triển bằng ❤️ với React</p>
       </footer>
     </div>
